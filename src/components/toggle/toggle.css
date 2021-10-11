@@ -1,0 +1,15 @@
+.toggle{
+    border: 2px solid #e345;
+    width: 50px;
+    height: 25px;
+}
+.toggle__icon{
+    width: 15px;
+
+}
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Grace229/Portfolio-new.git
+git push -u origin main
