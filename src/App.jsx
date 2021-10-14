@@ -1,21 +1,24 @@
-import React, {useState, useEffect, useContext} from "react";
+import React, {useContext} from "react";
 import Intro from './components/intro/Intro';
-import Toggle from './components/toggle/Toggle'
-import Contact from './components/contact/Contact'
-import Project from "./components/Project/Project";
+import Toggle from './components/toggle/Toggle';
+import Projects from "./components/projects/Projects";
+import Footer from "./components/footer/Footer";
 import { ThemeContext } from "./Context";
+
+
 function App() {
-const theme = useContext(ThemeContext)
-const {darkMode} = theme.state;
-  return ( 
+  const theme = useContext(ThemeContext);
+  const {darkMode} = theme.state;
+
+  return (
     <div style={{
-      backgroundColor: darkMode ? '#000' : '#fff',
-      color: darkMode && '#fff'
+      backgroundColor: darkMode ? '#000' : 'white',
+      color: darkMode && 'white'
     }}>
       <Toggle />
-<Intro />
-<Project />
-<Contact />
+      <Intro />
+      <Projects />
+      <Footer />
     </div>
   );
 }
