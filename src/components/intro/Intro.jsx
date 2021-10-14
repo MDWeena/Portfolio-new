@@ -7,11 +7,11 @@ const Intro = () => {
   const theme = useContext(ThemeContext);
   const {darkMode} = theme.state;
   return (
-    <div className="intro">
+    <div className="intro" id="#top">
       <div className="intro__top" style={{backgroundColor: darkMode && 'black'}}>
-        <a href="#" style={{color: darkMode && 'white'}}>Profile</a>
+        <a href="#top" style={{color: darkMode && 'white'}}>Profile</a>
         <a href="#project" style={{color: darkMode && 'white'}}>Projects</a>
-        <a href="" style={{color: darkMode && 'white'}}>Contact</a>
+        <a href="#contact" style={{color: darkMode && 'white'}}>Contact</a>
       </div>
       <div className="intro__bottom">
       <div className="intro__left">
