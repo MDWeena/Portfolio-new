@@ -1,5 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 body {
-    font-family: "Open Sans"
+  width: 100vw !important;
+  overflow-x: hidden;
+}
+.mobile {
+  display: none !important;
+}
+@media (max-width: 1255px) {
+  .main {
+    display: none !important;
+  }
+  .mobile {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: #fff !important;
+    padding: 3em
+  }
+  .mobile-text {
+    font-size: 3em !important;
+    color: #000;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: "Open sans"
+  }
 }
