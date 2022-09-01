@@ -8,7 +8,7 @@ function Footer() {
   const theme = useContext(ThemeContext);
   const {darkMode} = theme.state;
   return (
-    <footer style={{backgroundColor: darkMode && 'rgb(99, 95, 95)'}}>
+    <footer style={{backgroundColor: darkMode && '#73BEC5'}}>
       <p>Copyright ⓒ {year}</p>
     </footer>
   );

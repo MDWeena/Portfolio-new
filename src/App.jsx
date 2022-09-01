@@ -12,8 +12,9 @@ function App() {
 
   return (
     <div style={{
-      backgroundColor: darkMode ? '#000' : 'white',
-      color: darkMode && 'white'
+      backgroundColor: darkMode ? '#0F2027' : 'white',
+      color: darkMode && 'white',
+      // backgroundImage: darkMode && 'linear-gradient(to right, #0F2027,#203A43,#2C5364)'
     }}>
       <Toggle />
       <Intro />
