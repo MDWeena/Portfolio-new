@@ -18,7 +18,7 @@ const Intro = () => {
         <a href="#contact" style={{ color: darkMode && "white" }}>
           Contact
         </a>
-        <a href="#contact" style={{ color: darkMode && "white" }}>
+        <a href="https://drive.google.com/file/d/1ZpoicetlqKedIq6si4y5YkBW7WW4MQtr/view?usp=sharing" style={{ color: darkMode && "white" }}>
           Resume
         </a>
       </div>
