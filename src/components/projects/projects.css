@@ -40,10 +40,10 @@
   background: rgba(0, 0, 0, 1);
 }
 .projects::before {
-  transform: translate(82.5em, 10.5em);
+  transform: translate(76em, 10.5em);
 }
 .projects::after {
-  transform: translate(49em, 10.5em);
+  transform: translate(42em, 10.5em);
 }
 .project:hover .project_text {
   display: block;
@@ -140,7 +140,7 @@ a {
     padding: 1em auto 3em;
   }
   .projects_header{
-    padding-top: -3em
+    padding-top: -7em
   }
 }
 
