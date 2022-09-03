@@ -15,7 +15,7 @@ const Intro = () => {
         <a href="#project" style={{ color: darkMode && "white" }}>
           Projects
         </a>
-        <a href="#contact" style={{ color: darkMode && "white" }}>
+        <a href="mailto:akpologun.winner@gmail.com" style={{ color: darkMode && "white" }}>
           Contact
         </a>
         <a href="https://drive.google.com/file/d/1ZpoicetlqKedIq6si4y5YkBW7WW4MQtr/view?usp=sharing" style={{ color: darkMode && "white" }}>
